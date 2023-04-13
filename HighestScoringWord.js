@@ -16,7 +16,7 @@ const HighestScoringWord = (str) => {
 
     splitted.forEach(word => {
         word.split("").forEach(l => {
-                points += alphabet.indexOf(l) + 1
+            points += alphabet.indexOf(l) + 1
         })
 
         aux.push(points)
@@ -27,4 +27,4 @@ const HighestScoringWord = (str) => {
     return splitted[aux.indexOf(max)]
 }
 
-console.log(HighestScoringWord('b aa'))
+console.log(HighestScoringWord('b aza x'))
