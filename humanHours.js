@@ -32,4 +32,4 @@ function humanHOurs(secs) {
   return false;
 }
 
-console.log(humanHOurs(45296));
+console.log(humanHOurs(21360));
