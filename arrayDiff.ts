@@ -13,13 +13,13 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3] a
  * @returns 
  */
 
-const arrayA = ['Joao', 'Maria', 'Pedro', 'Carla']
-const arrayB = ['Ricardo', 'Maria', 'Pedro', 'Joao']
+const arrayA: string[] = ['Joao', 'Maria', 'Pedro', 'Carla']
+const arrayB: string[] = ['Ricardo', 'Maria', 'Pedro', 'Joao']
 
-for (let i = 0; i < arrayA.length; i++) {
-    for (let j = 0; j < arrayB.length; j++) {
-        const valueA = arrayA[i]
-        const valueB = arrayB[j]
+for (let i: number = 0; i < arrayA.length; i++) {
+    for (let j: number = 0; j < arrayB.length; j++) {
+        const valueA: string = arrayA[i]
+        const valueB: string = arrayB[j]
 
         if (valueA === valueB) {
             console.log(valueA)
